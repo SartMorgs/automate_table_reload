@@ -1,0 +1,27 @@
+table1:
+  script_name: /path/myfolder/myfile1.py
+  schema: table_schema
+  table_name: table_name
+  sql_file: sql/table_sql_file1.sql
+  data_field: data_field
+  rds_host: localhost
+  rds_port: port_number
+  rds_database: database_name
+  rds_user: username
+  rds_password: password
+  s3_artifacts_bucket: bucket_name
+  source_database_name: database_name_athena
+  s3_output_querys: s3_folder_name
+  start_date: 01-01-1999
+  end_date: 31-12-2050
+  
+table2:
+  script_name: /path/myfolder/myfile2.py
+  sql_file: sql/table_sql_file2.sql
+  data_field: data_field
+  source_database_name: source_database_name_athena
+  target_database_name: target_database_name_athena
+  s3_artifacts_bucket: bucket_name
+  s3_output_querys: s3_folder_name
+  start_date: 01-01-1999
+  end_date: 31-12-2050

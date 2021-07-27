@@ -1,0 +1,11 @@
+Include
+Scripts
+Lib
+etc
+share
+
+pyvenv.cfg
+
+*.ipynb_checkpoints
+*.terraform
+*.ipynb
